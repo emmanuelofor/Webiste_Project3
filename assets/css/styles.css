@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100&family=Urbanist:wght@100;200;300;400;900&display=swap');
+
+body
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    box-shadow: 3px 5px 20px #e5e5e5;
+    border: 1px solid;
+    border-color: rgb(255, 0, 0);
+    border-radius: 50px;
+  }
+
+  .logoimg
+  {
+    width: 50px;
+    margin-left: 90px;
+  }
+
+  nav ul{
+    display: flex;
+    width: 500px;
+    justify-content: space-evenly;
+  }
+
+  nav ul li{
+     list-style: none;
+     font-size: 18px;
+  }
+
+  nav ul li a{
+    text-decoration: none;
+    color: brown;
+    border-radius: 8px;
+    padding: 10px;
+  }
+
+  nav ul li a:hover{
+    background: red;
+    color: white;
+  }
+
+  .main-header
+  {
+    font-size: 50px;
+    color: green;
+    text-decoration: underline;
+  }
+
+  #about-header
+  {
+    color: violet;
+    text-decoration: dotted;
+    font-size: 100px;
+  }
+
+
+  .hero
+  {
+    background-color: #eda714;
+    display: flex;
+    min-height: 300px;
+  }
+
+  .hero-img
+  {
+    width: 50%;
+    height: 100%;
+  }
+
+  .right-content{
+    padding: 50px 100px;
+  }
+
+  .right-content h4{
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+
+  .right-content h1
+  {
+    text-transform: none;
+    font-size: 60px;
+  }
+
+  .right-content button, .help-section-text button
+  {
+    margin-top: 20px;
+    display: block;
+    padding: 20px 50px;
+    border-radius: 30px;
+    background: black;
+    color: white;
+  }
+
+  .contact-btn:hover{
+    color: rgb(2, 74, 106);
+    background-color: rgb(255, 255, 255);
+  }
+
+  .help-section{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .help-img
+  {
+    height: 410px;
+    /* align-items: center; */
+    width: 400px;
+    margin: 25px auto;
+    object-fit: cover;
+  }
+
+  .help-section-text
+  {
+    text-align: center;
+  }
+
+  .help-section-text h1
+  {
+    font-size: 65px;
+  }
+
+  .help-section-text p
+  {
+   font-size: 25px;
+  }
+
+  .help-section-text button
+  {
+    font-size: 20px;
+    margin: 40px auto;
+  }
+
+
+footer{
+  background-color: aquamarine;
+  height: 400px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer h4
+{
+  font-weight: 700;
+  line-height: 1.8;
+  font-style: italic;
+}
+
+.footer-column-1
+{
+  width: 400px;
+}
